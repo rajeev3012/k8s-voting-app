@@ -14,3 +14,6 @@
 
 This setup ensures efficient vote processing, real-time result updates, and easy deployment/management using Kubernetes. 🚀
 
+## Architecture:
+
+![voting-app4 drawio](https://github.com/user-attachments/assets/f788e3cb-0984-452c-a93f-9408f770a520)
