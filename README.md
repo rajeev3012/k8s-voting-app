@@ -9,8 +9,8 @@
 - **Worker Service:** A background process retrieves votes from Redis and updates the PostgreSQL database.  
 - **Kubernetes Deployment:**  
   - All components (Voting App, Result App, Redis, Worker, PostgreSQL) are defined in `deployment.yaml` and `services.yaml`.  
-  - A single command (`kubectl create -f k8s-voting-app/`) deploys the entire infrastructure.  
-  - A single command (`kubectl delete -f k8s-voting-app/`) removes everything for cleanup.  
+  - A single command (`kubectl create -f k8s-specs/`) deploys the entire infrastructure.  
+  - A single command (`kubectl delete -f k8s-specs/`) removes everything for cleanup.  
 
 This setup ensures efficient vote processing, real-time result updates, and easy deployment/management using Kubernetes. 🚀
 
